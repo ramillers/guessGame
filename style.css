@@ -1,0 +1,101 @@
+
+* { /* resetar */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* fazer a medida da caixa a partir das bordas */
+}
+
+:root {
+    font-size: 62.5% /* pra deixar adaptado na questão de acessibilidade */
+}
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center; /*TAMBÉM CENTRALIZA AO MEIO*/
+    height: 100vh; /*deixar bem centralizado ao meio verticalmente tbm*/ 
+    font-family: "DM Sans", sans-serif;
+}
+
+body, button, input {
+    font-family: "DM Sans", sans-serif;
+}
+
+button {
+    background-color: #7879f1;
+    color: white; 
+    font-weight: bold;
+    border-radius: 0 .4rem .4rem 0;
+    cursor: pointer; /* pra ter a mãozinha do mousw */
+
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #5858b1;
+}
+
+.hide {
+    display: none; /*pra n aparecer a primeira tela */
+}
+
+main {
+    background: #ffffff; 
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%); /* pegar o mínimo de cada, pra ficar dinâmico/adaptável*/
+    /*margin: 0 auto; fica no meio*/
+    margin-top: -12rem; 
+    
+    text-align: center;
+}
+
+/*screen 1 */
+
+h1 {
+    font-family: "Monteserrat", sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem; 
+}
+
+h1, p {
+    color: #34355B;
+}
+
+p {
+    opacity: .8;
+    font-weight: lighter;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center; 
+}
+
+input, button {
+    border: none;
+    padding: 1.6rem;
+}
+
+input {
+    background-color: #dce2e9;
+    width: 7rem;
+    border-radius: .4rem 0 0 .4rem;
+}
+
+/* screen 2*/
+h2 {
+    font-size: 2.4rem;
+    font-weight: normal;
+
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: .4rem; 
+}
