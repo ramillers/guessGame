@@ -1,1 +1,1 @@
-Jogo de advinhação do explorer das rocketseat
+Jogo de advinhação do explorer da rocketseat
